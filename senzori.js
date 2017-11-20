@@ -1,4 +1,4 @@
-document.getElemntById("id_bussines_version").inerHTML="Businss version"
+document.getElementById("id_bussines_version").innerHTML="Businss version"
 
 window.addEventListener("deviceorientation", on_device_orientation);
 window.addEventListener("devicemotion", on_device_motion);
