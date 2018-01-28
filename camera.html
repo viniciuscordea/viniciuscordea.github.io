@@ -20,7 +20,8 @@ canvas {
 	box-shadow: 0px 5px 5px 0px rgba(51,51,51,0.3);
 }
 .button {
-	display: inline-block;
+	width:100%;
+	/*display: inline-block;*/
 	padding: 6px 12px;
 	margin-bottom: 0;
 	font-size: 14px;
@@ -43,10 +44,16 @@ canvas {
 	border-color: #010fdd;
 	text-decoration:none;
 }
+.clear {
+	clear:both;
+}
 </style>
 <body>
 <video id ="id_video" controls autoplay>Browser does not support video!</video>
 <canvas src="" id="id_img"></canvas>
+
+<div class="clear"></div>
+
 <a href="#" onclick="on_touch_video()" class="button">
 	Captura foto
 </a>
